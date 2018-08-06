@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Oleg Parkhomenko](https://up.htmlacademy.ru/htmlcss/22/user/635705).
-* Наставник: `Неизвестно`.
+* Наставник: [Кекс](https://htmlacademy.ru/).
 
 ---
 
