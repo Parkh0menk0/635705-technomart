@@ -11,7 +11,13 @@
   <header class="main-header">
     <div class="main-header-top">
       <a href="" class="main-header-logo">Техномарт</a>
-      <!-- Здесь будет форма поиска -->
+      <form action="https://echo.htmlacademy.ru" method="get" class="site-search-form">
+        <label class="visually-hidden" for="search-field">Поиск по сайту</label>
+        <input id="search-field" type="search" name="search" placeholder="Поиск:">
+        <button class="search-button" type="submit" name="button">
+          <span class="visually-hidden">Поиск</span>
+        </button>
+      </form>
       <a href="#" class="main-header-bookmarks">Закладки: 0</a>
       <a href="#" class="main-header-basket">Корзина: 0</a>
       <a href="#" class="main-header-сheckout">Оформить заказ</a>
@@ -318,7 +324,20 @@
 
   <section class="modal modal-write-us">
     <h2 class="visually-hidden">Написать нам</h2>
-    <button class="modal-close-btn">Закрыть</button>
+    <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+      <div class="half-width">
+        <label class="feedback-form-label" for="feedback-form-name">Ваше имя:</label>
+        <input id="feedback-form-name" class="feedback-form-input" type="text" name="full-name" value="" placeholder="Имя Фамилия">
+      </div>
+      <div class="half-width">
+        <label class="feedback-form-label" for="feedback-form-email">Ваш e-mail:</label>
+        <input id="feedback-form-email" class="feedback-form-input" type="email" name="email" value="" placeholder="email@example.com">
+      </div>
+      <label class="feedback-form-label" for="feedback-form-letter-text"></label>
+      <textarea id="feedback-form-letter-text" class="feedback-form-input" name="letter-text" placeholder="В свободной форме"></textarea>
+      <button class="btn" type="submit" name="send-button">Отправить</button>
+    </form>
+    <button class="modal-close-btn" type="button" name="modal-write-us-button">Закрыть</button>
   </section>
 
   <section class="modal modal-map">
