@@ -77,8 +77,82 @@
     </ul>
     <h1 class="catalog-page-title">Перфораторы</h1>
     <section class="catalog-page-filters">
-      <h2 class="filters-title">Фильтры</h2>
-      <!-- Здесь будет форма -->
+      <h2 class="filters-title">Фильтр:</h2>
+      <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
+        <fieldset class="filter-form-price">
+          <legend class="filter-form-title">Цена:</legend>
+          <div class="price-controls">
+            <label class="min-price">
+              от
+              <input type="text" name="min-price" value="0">
+            </label>
+            <label class="max-price">
+              до
+              <input type="text" name="max-price" value="3000">
+            </label>
+          </div>
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+          </div>
+        </fieldset>
+        <fieldset class="filter-form-brands">
+          <legend class="filter-form-title">Производители:</legend>
+          <ul class="brands-list">
+            <li class="brands-item">
+              <label>
+                <input class="brands-item-checkbox visually-hidden" type="checkbox" name="Bosch" value="" checked>
+                Bosch
+              </label>
+            </li>
+            <li class="brands-item">
+              <label>
+                <input class="brands-item-checkbox visually-hidden" type="checkbox" name="Интерскол" value="">
+                Интерскол
+              </label>
+            </li>
+            <li class="brands-item">
+              <label>
+                <input class="brands-item-checkbox visually-hidden" type="checkbox" name="Makita" value="" checked>
+                Makita
+              </label>
+            </li>
+            <li class="brands-item">
+              <label>
+                <input class="brands-item-checkbox visually-hidden" type="checkbox" name="DeWalt" value="">
+                DeWalt
+              </label>
+            </li>
+            <li class="brands-item">
+              <label>
+                <input class="brands-item-checkbox visually-hidden" type="checkbox" name="Hitachi" value="">
+                Hitachi
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset class="filter-form-power-supply">
+          <legend class="filter-form-title">Питание:</legend>
+          <ul class="power-supply-list">
+            <li class="power-supply-item">
+              <label>
+                <input class="power-supply-item-radio visually-hidden" type="radio" name="power-supply" value="battery" checked>
+                Аккумуляторные
+              </label>
+            </li>
+            <li class="power-supply-item">
+              <label>
+                <input class="power-supply-item-radio visually-hidden" type="radio" name="power-supply" value="electrical-network">
+                Сетевые
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <button class="filter-form-button" type="submit">Показать</button>
+      </form>
     </section>
     <section class="catalog-page-sort">
       <div class="sort-header">
