@@ -2,7 +2,7 @@ body
 {
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 18px;
 
   margin: 0;
@@ -26,7 +26,7 @@ a
 {
   font-family: 'Cuprum', Arial, sans-serif;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 18px;
 
   text-align: center;
@@ -44,6 +44,11 @@ a
 .btn:active
 {
   background-color: #ba2732;
+}
+
+.item-latest
+{
+  background-image: url('../img/latest.png');
 }
 
 .main-header
@@ -311,26 +316,115 @@ input[type='search']:hover
   color: #fff;
 }
 
-.slider-item-drills
+.slider .slider-item-drills
 {
   background-color: #684c3e;
   background-image: url('../img/slider-item-1.jpg');
   background-repeat: no-repeat;
 }
 
-.slider-item-punchers
+.slider .slider-item-punchers
 {
   background-color: #917f6d;
   background-image: url('../img/slider-item-2.jpg');
   background-repeat: no-repeat;
 }
 
-.slider-switch-previous
+.slider .slider-switch-previous
 {
   background-image: url('../img/icon-left.svg');
 }
 
-.slider-switch-next
+.slider .slider-switch-next
 {
   background-image: url('../img/icon-right.svg');
+}
+
+.popular-header {
+  background-color: #f9f5f0;
+}
+
+.popular-header-title
+{
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+
+  text-transform: uppercase;
+
+  color: #32425c;
+}
+
+.goods-item
+{
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-weight: bold;
+
+  text-align: center;
+
+  border: 1px solid #eaeaea;
+}
+
+.goods-item-title
+{
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.item-old-price
+{
+  font-size: 17px;
+  line-height: 18px;
+
+  color: #a9a9a9;
+}
+
+.item-price
+{
+  font-size: 17px;
+  line-height: 18px;
+
+  color: #fff;
+  background-color: #ee3643;
+}
+
+.goods-purchase
+{
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+
+  text-transform: uppercase;
+}
+
+.buy-btn {
+  color: #ffffff;
+  background-color: #63a63e;
+}
+
+.buy-btn:hover {
+  background-color: #5fbb2d;
+}
+
+.buy-btn:active {
+  background-color: #518534;
+}
+
+.to-bookmarks-btn {
+  color: #32425c;
+  border: 3px solid #63a63e;
+}
+
+.to-bookmarks-btn:hover {
+  border: 3px solid #32425c;
+}
+
+.to-bookmarks-btn:active {
+  color: rgba(50, 66, 92, 0.3);
+  border: 3px solid #cad3d7;
+}
+
+.brand-name-item {
+
 }
