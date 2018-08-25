@@ -88,8 +88,8 @@
         </div>
       </div>
       <div class="slider">
-        <input class="visually-hidden" type="radio" id="drills" name="toggle" checked>
-        <input class="visually-hidden" type="radio" id="punchers" name="toggle">
+        <input class="visually-hidden" type="radio" id="drills" name="slider-toggle" checked>
+        <input class="visually-hidden" type="radio" id="punchers" name="slider-toggle">
         <div class="slider-controls">
           <label class="slider-controls-item slider-controls-drills" for="drills">
             <span class="visually-hidden">Дрели</span>
@@ -244,34 +244,39 @@
     </section>
     <section class="service">
       <h2 class="service-title">Сервисы</h2>
-      <p class="service-slogan">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-      <ul class="service-list default-list">
-        <li class="service-item">Доставка</li>
-        <li class="service-item">Гарантия</li>
-        <li class="service-item">Кредит</li>
-      </ul>
-      <div class="service-description">
-        <div class="service-description-item">
-          <h3 class="delivery-title">Доставка</h3>
-          <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+      <p class="page-content service-slogan">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+      <div class="service-panel">
+        <input type="radio" id="delivery" name="service-toggle" checked>
+        <input type="radio" id="guarantee" name="service-toggle">
+        <input type="radio" id="credit" name="service-toggle">
+        <div class="services-list">
+          <label class="service-item service-item-delivery" for="delivery">Доставка</label>
+          <label class="service-item service-item-guarantee" for="guarantee">Гарантия</label>
+          <label class="service-item service-item-credit" for="credit">Кредит</label>
         </div>
-        <div class="service-description-item">
-          <h3 class="guarantee-title">Гарантия</h3>
-          <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.
-          </p>
-        </div>
-        <div class="service-description-item">
-          <h3 class="credit-title">Кредит</h3>
-          <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
-          <a class="btn services-description-link" href="#">Отправить заявку</a>
+        <div class="service-description">
+          <div class="service-description-item service-delivery-description">
+            <h3 class="service-description-title">Доставка</h3>
+            <p class="page-content">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+          </div>
+          <div class="service-description-item service-guarantee-description">
+            <h3 class="service-description-title">Гарантия</h3>
+            <p class="page-content">Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.
+            </p>
+          </div>
+          <div class="service-description-item service-credit-description">
+            <h3 class="service-description-title">Кредит</h3>
+            <p class="page-content">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+            <a class="btn services-description-link" href="#">Отправить заявку</a>
+          </div>
         </div>
       </div>
     </section>
     <section class="about-us">
       <div class="about-us-company">
         <h2 class="about-us-title">Компания «Техномарт»</h2>
-        <p class="about-us-description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
-        <p class="about-us-description">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями: </p>
+        <p class="page-content">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+        <p class="page-content">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями: </p>
         <ul class="transport-companies-list default-list">
           <li class="transport-companies-item">Деловые линии</li>
           <li class="transport-companies-item">Автотрейдинг</li>
@@ -281,7 +286,7 @@
       </div>
       <div class="about-us-contacts">
         <h2 class="about-us-title">Контакты</h2>
-        <p class="about-us-description">Вы можете забрать товар сами, заехав в наш офис:</p>
+        <p class="page-content">Вы можете забрать товар сами, заехав в наш офис:</p>
         <img src="img/map-small.png" width="300" height="158" alt="Большая конюшенная ул., 19">
         <a href="#" class="btn about-us-btn">Заблудились? Напишите нам!</a>
       </div>

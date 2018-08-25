@@ -340,7 +340,8 @@ input[type='search']:hover
   background-image: url('../img/icon-right.svg');
 }
 
-.popular-header {
+.popular-header
+{
   background-color: #f9f5f0;
 }
 
@@ -398,33 +399,115 @@ input[type='search']:hover
   text-transform: uppercase;
 }
 
-.buy-btn {
-  color: #ffffff;
+.buy-btn
+{
+  color: #fff;
   background-color: #63a63e;
 }
 
-.buy-btn:hover {
+.buy-btn:hover
+{
   background-color: #5fbb2d;
 }
 
-.buy-btn:active {
+.buy-btn:active
+{
   background-color: #518534;
 }
 
-.to-bookmarks-btn {
+.to-bookmarks-btn
+{
   color: #32425c;
   border: 3px solid #63a63e;
 }
 
-.to-bookmarks-btn:hover {
+.to-bookmarks-btn:hover
+{
   border: 3px solid #32425c;
 }
 
-.to-bookmarks-btn:active {
-  color: rgba(50, 66, 92, 0.3);
+.to-bookmarks-btn:active
+{
+  color: rgba(50, 66, 92, .3);
   border: 3px solid #cad3d7;
 }
 
-.brand-name-item {
+.service
+{
+  background-color: #f5f8fa;
+}
 
+.service-title,
+.about-us-title
+{
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 30px;
+
+  text-transform: uppercase;
+}
+
+.page-content
+{
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+.service-item
+{
+  font-size: 21px;
+  line-height: 30px;
+
+  color: #fff;
+  border-bottom: 1px solid #4e637c;
+  background-color: #32425c;
+}
+
+.service-item:last-child
+{
+  border-bottom: none;
+}
+
+.service-item:hover
+{
+  color: #fff;
+  background-color: #293449;
+}
+
+.service-description-title
+{
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+
+  text-transform: uppercase;
+
+  color: #32425c;
+}
+
+.service-delivery-description
+{
+  background-image: url('../img/option-item-1.png');
+  background-repeat: no-repeat;
+}
+
+.service-guarantee-description
+{
+  background-image: url('../img/option-item-2.png');
+  background-repeat: no-repeat;
+}
+
+.service-credit-description
+{
+  background-image: url('../img/option-item-3.png');
+  background-repeat: no-repeat;
+}
+
+.transport-companies-item
+{
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 20px;
 }
