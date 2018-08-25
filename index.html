@@ -73,44 +73,58 @@
     <section class="goods-and-services">
       <h2 class="visually-hidden">Товары и услуги</h2>
       <div class="goods">
-        <div class="goods-and-services-item">
+        <div class="goods-and-services-item fabric">
           <h3 class="goods-and-services-item-title">Материалы</h3>
           <a href="#" class="goods-and-services-btn">На любой вкус</a>
           <span class="item-latest">New</span>
         </div>
-        <div class="goods-and-services-item">
+        <div class="goods-and-services-item instrument">
           <h3 class="goods-and-services-item-title">Инструмент</h3>
           <a href="#" class="goods-and-services-btn">На все случаи</a>
         </div>
-        <div class="goods-and-services-item">
+        <div class="goods-and-services-item equipment">
           <h3 class="goods-and-services-item-title">Техника</h3>
           <a href="#" class="goods-and-services-btn">Для стройки</a>
         </div>
       </div>
       <div class="slider">
+        <input class="visually-hidden" type="radio" id="drills" name="toggle" checked>
+        <input class="visually-hidden" type="radio" id="punchers" name="toggle">
         <div class="slider-controls">
-          <label for="product-1">Первый</label>
-          <label for="product-2">Второй</label>
+          <label class="slider-controls-item slider-controls-drills" for="drills">
+            <span class="visually-hidden">Дрели</span>
+          </label>
+          <label class="slider-controls-item slider-controls-punchers" for="punchers">
+            <span class="visually-hidden">Перфораторы</span>
+          </label>
+        </div>
+        <div class="slider-switches">
+          <label class="slider-switch slider-switch-previous" for="drills">
+            <span class="visually-hidden">Предыдущий слайд</span>
+          </label>
+          <label class="slider-switch slider-switch-next" for="punchers">
+            <span class="visually-hidden">Следующий слайд</span>
+          </label>
         </div>
         <ul class="slider-list default-list">
-          <li class="slider-item slide" id="slide1">
+          <li class="slider-item slider-item-drills">
             <h3 class="slide-title">Дрели</h3>
-            <b>Соседям на радость!</b>
-            <a class="button slide-button" href="#">Открыть каталог</a>
+            <b class="slide-slogan">Соседям на радость!</b>
+            <a class="btn slide-button" href="#">Открыть каталог</a>
           </li>
-          <li class="slider-item slide" id="slide2">
+          <li class="slider-item slider-item-punchers">
             <h3 class="slide-title">Перфораторы</h3>
-            <b>Настоящие мужские игрушки</b>
-            <a class="button slide-button" href="#">Открыть каталог</a>
+            <b class="slide-slogan">Настоящие мужские игрушки</b>
+            <a class="btn slide-button" href="#">Открыть каталог</a>
           </li>
         </ul>
       </div>
       <div class="services">
-        <div class="goods-and-services-item">
+        <div class="goods-and-services-item discounts">
           <h3 class="goods-and-services-item-title">Скидки 50%</h3>
           <a href="#" class="goods-and-services-btn">На 350 товаров</a>
         </div>
-        <div class="goods-and-services-item">
+        <div class="goods-and-services-item delivery">
           <h3 class="goods-and-services-item-title">Доставка</h3>
           <a href="#" class="goods-and-services-btn">Бесплатно</a>
         </div>
@@ -118,15 +132,15 @@
     </section>
     <section class="popular-goods">
       <h2 class="popular-goods-title">Популярные товары</h2>
-      <a href="#" class="popular-goods-all">Все популярные товары</a>
+      <a href="#" class="btn popular-goods-all">Все популярные товары</a>
       <ul class="goods-list default-list">
         <li class="goods-item">
           <div class="goods-item-label">
             <img src="img/power-drill-1.jpg" width="184" height="163" alt="Перфоратор BOSCH BFG 9000">
           </div>
           <div class="goods-buy-window">
-            <a href="#" class="btn buy-btn">Купить</a>
-            <a href="#" class="btn to-bookmarks-btn">В закладки</a>
+            <a href="#" class="buy-btn">Купить</a>
+            <a href="#" class="to-bookmarks-btn">В закладки</a>
           </div>
           <div class="goods-item-body">
             <h3 class="goods-item-title">Перфоратор BOSCH BFG 9000</h3>
@@ -139,8 +153,8 @@
             <img src="img/power-drill-2.jpg" width="184" height="163" alt="Перфоратор BOSCH BFG 3000">
           </div>
           <div class="goods-buy-window">
-            <a href="#" class="btn buy-btn">Купить</a>
-            <a href="#" class="btn to-bookmarks-btn">В закладки</a>
+            <a href="#" class="buy-btn">Купить</a>
+            <a href="#" class="to-bookmarks-btn">В закладки</a>
           </div>
           <div class="goods-item-body">
             <h3 class="goods-item-title">Перфоратор BOSCH BFG 3000</h3>
@@ -153,8 +167,8 @@
             <img src="img/power-drill-3.jpg" width="184" height="163" alt="Перфоратор BOSCH BFG 6000">
           </div>
           <div class="goods-buy-window">
-            <a href="#" class="btn buy-btn">Купить</a>
-            <a href="#" class="btn to-bookmarks-btn">В закладки</a>
+            <a href="#" class="buy-btn">Купить</a>
+            <a href="#" class="to-bookmarks-btn">В закладки</a>
           </div>
           <div class="goods-item-body">
             <h3 class="goods-item-title">Перфоратор BOSCH BFG 6000</h3>
@@ -168,8 +182,8 @@
             <img src="img/power-drill-4.jpg" width="184" height="163" alt="Перфоратор BOSCH BFG 2000">
           </div>
           <div class="goods-buy-window">
-            <a href="#" class="btn buy-btn">Купить</a>
-            <a href="#" class="btn to-bookmarks-btn">В закладки</a>
+            <a href="#" class="buy-btn">Купить</a>
+            <a href="#" class="to-bookmarks-btn">В закладки</a>
           </div>
           <div class="goods-item-body">
             <h3 class="goods-item-title">Перфоратор BOSCH BFG 2000</h3>
@@ -180,7 +194,7 @@
     </section>
     <section class="popular-brand-name">
       <h2 class="popular-brand-name-title">Популярные производители</h2>
-      <a href="#" class="popular-brand-name-all">Все производители</a>
+      <a href="#" class="btn popular-brand-name-all">Все производители</a>
       <ul class="brand-name-list default-list">
         <li class="brand-name-item">
           <a href="#">
@@ -245,7 +259,7 @@
         <div class="service-description-item">
           <h3 class="credit-title">Кредит</h3>
           <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
-          <a class="services-description-link button" href="#">Отправить заявку</a>
+          <a class="btn services-description-link" href="#">Отправить заявку</a>
         </div>
       </div>
     </section>
@@ -259,13 +273,13 @@
           <li class="transport-companies-item">Автотрейдинг</li>
           <li class="transport-companies-item">ЖелДорЭкспедиция</li>
         </ul>
-        <a href="#" class="about-us-btn">Подробнее о компании</a>
+        <a href="#" class="btn about-us-btn">Подробнее о компании</a>
       </div>
       <div class="about-us-contacts">
         <h2 class="about-us-title">Контакты</h2>
         <p class="about-us-description">Вы можете забрать товар сами, заехав в наш офис:</p>
         <img src="img/map-small.png" width="300" height="158" alt="Большая конюшенная ул., 19">
-        <a href="#" class="about-us-btn">Заблудились? Напишите нам!</a>
+        <a href="#" class="btn about-us-btn">Заблудились? Напишите нам!</a>
       </div>
     </section>
   </main>

@@ -1,190 +1,336 @@
 body
 {
-    font-family: 'Cuprum', Arial, sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 18px;
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 18px;
 
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 
-    color: #000;
-    background-color: #fff;
+  color: #000;
+  background-color: #fff;
 }
 
 a
 {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.default-list {
+.default-list
+{
   list-style: none;
+}
+
+.btn
+{
+  font-family: 'Cuprum', Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #fff;
+  background-color: #ee3643;
+}
+
+.btn:hover
+{
+  background-color: #ca2c37;
+}
+
+.btn:active
+{
+  background-color: #ba2732;
 }
 
 .main-header
 {
-    background-color: #f3f7f9;
+  background-color: #f3f7f9;
 }
 
 .main-header .main-header-top
 {
-    background-color: #293449;
+  background-color: #293449;
 }
 
 .main-header-top a
 {
-    font: inherit;
+  font: inherit;
 
-    color: #fff;
+  color: #fff;
 }
 
 .main-header-top .main-header-logo
 {
-    font-size: 24px;
-    line-height: 24px;
+  font-size: 24px;
+  line-height: 24px;
 
-    background-color: #ee3643;
+  background-color: #ee3643;
 }
 
 .main-header-top .main-header-logo:hover
 {
-    background-color: #ca2c37;
+  background-color: #ca2c37;
 }
 
 .main-header-top .main-header-logo:active
 {
-    background-color: #ba2732;
+  background-color: #ba2732;
 }
 
 input[type='search']
 {
-    border: none;
-    background-color: #293449;
+  border: none;
+  background-color: #293449;
 }
 
 input[type='search']:hover
 {
-    background-color: #212a3a;
+  background-color: #212a3a;
 }
 
 .main-header-top .main-header-bookmarks:hover,
 .main-header-top .main-header-basket-empty:hover
 {
-    background-color: #212a3a;
+  background-color: #212a3a;
 }
 
 .main-header-top .main-header-bookmarks:active,
 .main-header-top .main-header-basket-empty:active
 {
-    background-color: #161d29;
-    color: rgba(255, 255, 255, .6);
+  color: rgba(255, 255, 255, .6);
+  background-color: #161d29;
 }
 
 .main-header-top .main-header-basket-not-empty
 {
-    background-color: #ee3643;
+  background-color: #ee3643;
 }
 
-.main-header-top .main-header-basket-not-empty:hover
-{
 
-}
 
 .main-header-top .main-header-basket-not-empty:active
 {
-    color: rgba(255, 255, 255, .6);
+  color: rgba(255, 255, 255, .6);
 }
 
 .main-header-top .main-header-сheckout
 {
-    background-color: #63a63e;
+  background-color: #63a63e;
 }
 
 .main-header-top .main-header-сheckout:hover
 {
-    background-color: #5fbb2d;
+  background-color: #5fbb2d;
 }
 
 .main-header-top .main-header-сheckout:active
 {
-    background-color: #518534;
-    color: rgba(255, 255, 255, .6);
+  color: rgba(255, 255, 255, .6);
+  background-color: #518534;
 }
 
-.main-header-middle h1 {
-  color: #ee3643;
+.main-header-middle h1
+{
   font-size: 16px;
-  line-height: 23px;
-  font-style: italic;
   font-weight: normal;
+  font-style: italic;
+  line-height: 23px;
+
+  color: #ee3643;
 }
 
-.main-header-contacts .main-header-contacts-tel {
-  border: 3px solid #ffffff;
-  color: #ee3643;
+.main-header-contacts .main-header-contacts-tel
+{
   font-size: 21px;
   line-height: 21px;
+
+  color: #ee3643;
+  border: 3px solid #fff;
 }
 
-.main-header-contacts .main-header-contacts-address {
-  color: #32425c;
+.main-header-contacts .main-header-contacts-address
+{
   font-size: 14px;
   line-height: 24px;
+
+  color: #32425c;
 }
 
-.main-header-login-form a {
+.main-header-login-form a
+{
   font-size: 21px;
   line-height: 21px;
-  color: #000000;
-  background-color: #ffffff;
+
+  color: #000;
+  background-color: #fff;
 }
 
-.main-header-login-form a:hover {
+.main-header-login-form a:hover
+{
   color: #ee3643;
 }
 
-.main-header-login-form a:active {
+.main-header-login-form a:active
+{
   color: rgba(0, 0, 0, .3);
 }
 
-.user-authorization-info .user-name {
-  color: #000000;
+.user-authorization-info .user-name
+{
   font-size: 21px;
   line-height: 21px;
-  background-color: #ffffff;
+
+  color: #000;
+  background-color: #fff;
 }
 
-.user-authorization-links a {
-  color: #32425c;
+.user-authorization-links a
+{
   font-size: 16px;
   line-height: 18px;
+
   text-decoration: underline;
+
+  color: #32425c;
 }
 
-.user-authorization-links a:hover {
-  color: #ee3643
+.user-authorization-links a:hover
+{
+  color: #ee3643;
 }
 .user-authorization-info .user-name:active,
-.user-authorization-links a:active {
+.user-authorization-links a:active
+{
   color: rgba(0, 0, 0, .3);
 }
 
-.main-header-bottom .main-navigation {
+.main-header-bottom .main-navigation
+{
   background-color: #32425c;
 }
 
-.main-navigation a {
-  background-color: #32425c;
-  color: #ffffff;
+.main-navigation a
+{
   font-size: 17px;
   line-height: 17px;
+
+  color: #fff;
+  background-color: #32425c;
 }
 
-.main-navigation a:hover {
-  background-color: #293449
+.main-navigation a:hover
+{
+  background-color: #293449;
 }
 
-.main-navigation a:active {
-  background-color: #1d2739;
+.main-navigation a:active
+{
   color: rgba(255, 255, 255, .5);
+  background-color: #1d2739;
+}
+
+.goods-and-services-item h3
+{
+  font-size: 24px;
+  font-style: bold;
+  line-height: 30px;
+
+  color: #fff;
+}
+
+.goods-and-services-item a
+{
+  font-size: 14px;
+  line-height: 18px;
+
+  text-transform: uppercase;
+
+  color: #fff;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.goods-and-services-item a:hover
+{
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.goods-and-services-item a:active
+{
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.goods-and-services .fabric
+{
+  background-color: #ffbf47;
+}
+
+.goods-and-services .instrument
+{
+  background-color: #3bbce3;
+}
+
+.goods-and-services .equipment
+{
+  background-color: #dc91d8;
+}
+
+.goods-and-services .discounts
+{
+  background-color: #8ed78f;
+}
+
+.goods-and-services .delivery
+{
+  background-color: #ffc047;
+}
+
+.goods-and-services .slider
+{
+  background-color: #f4f8f9;
+}
+
+.slider .slide-title
+{
+  font-size: 36px;
+  line-height: 36px;
+
+  text-transform: uppercase;
+
+  color: #fff;
+}
+
+.slider .slide-slogan
+{
+  font-size: 18px;
+  line-height: 24px;
+
+  color: #fff;
+}
+
+.slider-item-drills
+{
+  background-color: #684c3e;
+  background-image: url('../img/slider-item-1.jpg');
+  background-repeat: no-repeat;
+}
+
+.slider-item-punchers
+{
+  background-color: #917f6d;
+  background-image: url('../img/slider-item-2.jpg');
+  background-repeat: no-repeat;
+}
+
+.slider-switch-previous
+{
+  background-image: url('../img/icon-left.svg');
+}
+
+.slider-switch-next
+{
+  background-image: url('../img/icon-right.svg');
 }
