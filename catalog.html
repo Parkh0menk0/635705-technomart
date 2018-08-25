@@ -13,7 +13,7 @@
 
   <header class="main-header">
     <div class="main-header-top">
-      <a href="" class="main-header-logo">Техномарт</a>
+      <a href="index.html" class="main-header-logo">Техномарт</a>
       <form action="https://echo.htmlacademy.ru" method="get" class="site-search-form">
         <label class="visually-hidden" for="search-field">Поиск по сайту</label>
         <input id="search-field" type="search" name="search" placeholder="Поиск:">
@@ -22,24 +22,21 @@
         </button>
       </form>
       <a href="#" class="main-header-bookmarks">Закладки: 0</a>
-      <a href="#" class="main-header-basket">Корзина: 0</a>
+      <a href="#" class="main-header-basket-not-empty">Корзина: 10</a>
       <a href="#" class="main-header-сheckout">Оформить заказ</a>
     </div>
     <div class="main-header-middle">
       <h1 class="main-header-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <div class="main-header-contacts">
-        <a href="#" class="main-header-contacts-tel">+7 (812) 555-05-55</a>
+        <p class="main-header-contacts-tel">+7 (812) 555-05-55</p>
         <p class="main-header-contacts-address">г. Санкт&ndash;Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
       <div class="main-header-user-authorization">
         <div class="user-authorization-info">
-          <a class="user-name" href="#">
-              <span class="visually-hidden">Вход в личный кабинет</span>
-              Равшан Джамшутович
-            </a>
+          <a class="user-name" href="#">Равшан Джамшутович</a>
           <a class="sing-out" href="#" title="Выход">
-              <span class="visually-hidden">Выход</span>
-            </a>
+            <span class="visually-hidden">Выход</span>
+          </a>
         </div>
         <div class="user-authorization-links">
           <a class="user-purchases" href="#">Мои заказы</a>
@@ -49,7 +46,7 @@
     </div>
     <div class="main-header-bottom">
       <nav class="main-navigation">
-        <ul class="site-navigation">
+        <ul class="site-navigation default-list">
           <li>
             <a href="index.html">Главная</a>
           </li>
@@ -77,7 +74,7 @@
   </header>
 
   <main>
-    <ul class="breadcrumbs">
+    <ul class="breadcrumbs default-list">
       <li>
         <a href="index.html" title="Домашняя страница"></li>
       <li><a href="catalog.html">Каталог</a></li>
@@ -110,7 +107,7 @@
         </fieldset>
         <fieldset class="filter-form-brands">
           <legend class="filter-form-title">Производители:</legend>
-          <ul class="brands-list">
+          <ul class="brands-list default-list">
             <li class="brands-item">
               <label>
                 <input class="brands-item-checkbox visually-hidden" type="checkbox" name="Bosch" value="" checked>
@@ -145,7 +142,7 @@
         </fieldset>
         <fieldset class="filter-form-power-supply">
           <legend class="filter-form-title">Питание:</legend>
-          <ul class="power-supply-list">
+          <ul class="power-supply-list default-list">
             <li class="power-supply-item">
               <label>
                 <input class="power-supply-item-radio visually-hidden" type="radio" name="power-supply" value="battery" checked>
@@ -166,7 +163,7 @@
     <section class="catalog-page-sort">
       <div class="sort-header">
         <h2 class="sort-title">Сортировка</h2>
-        <ul class="sort-result-list">
+        <ul class="sort-result-list default-list">
           <li class="sort-result-list-item">
             <a class="sort-result-list-link sort-result-list-link-active" href="#">По цене</a>
           </li>
@@ -177,7 +174,7 @@
             <a class="sort-result-list-link" href="#">По рейтингу</a>
           </li>
         </ul>
-        <ul class="selector-list">
+        <ul class="selector-list default-list">
           <li class="selector-list-item">
             <a class="selector-list-link selector-list-link-up" href="#">Сортировка по возрастанию</a>
           </li>
@@ -188,7 +185,7 @@
       </div>
       <div class="goods">
         <h2 class="visually-hidden">Перечень перфораторов</h2>
-        <ul class="goods-list">
+        <ul class="goods-list default-list">
           <li class="goods-item">
             <div class="goods-item-label">
               <img src="img/power-drill-2.jpg" width="184" height="163" alt="Перфоратор BOSCH BFG 3000">
@@ -340,7 +337,7 @@
         </p>
       </div>
       <div class="footer-right-side">
-        <ul class="footer-nav-list footer-nav">
+        <ul class="footer-nav-list footer-nav default-list">
           <li class="footer-nav-item">
             <a href="#">Компания</a>
           </li>
@@ -357,7 +354,7 @@
             <a href="#">Контакты</a>
           </li>
         </ul>
-        <ul class="footer-nav-list secondary-nav">
+        <ul class="footer-nav-list secondary-nav default-list">
           <li class="secondary-nav">
             <a href="#">Материалы</a>
           </li>
@@ -376,7 +373,7 @@
     <div class="main-footer-bottom">
       <p class="footer-copyright">&copy; 2010&ndash;2017 Компания «Техномарт» Все права защищены</p>
       <div class="footer-social">
-        <ul class="footer-social-list">
+        <ul class="footer-social-list default-list">
           <li class="footer-social-item">
             <a class="footer-social-vk" href="#">
               <span class="visually-hidden">Вконтакте</span>

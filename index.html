@@ -22,16 +22,16 @@
         </button>
       </form>
       <a href="#" class="main-header-bookmarks">Закладки: 0</a>
-      <a href="#" class="main-header-basket">Корзина: 0</a>
+      <a href="#" class="main-header-basket-empty">Корзина: 0</a>
       <a href="#" class="main-header-сheckout">Оформить заказ</a>
     </div>
     <div class="main-header-middle">
       <h1 class="main-header-title">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
       <div class="main-header-contacts">
-        <a href="#" class="main-header-contacts-tel">+7 (812) 555-05-55</a>
+        <p class="main-header-contacts-tel">+7 (812) 555-05-55</p>
         <p class="main-header-contacts-address">г. Санкт&ndash;Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
-      <ul class="main-header-login-form">
+      <ul class="main-header-login-form default-list">
         <li>
           <a href="#" class="btn sing-in-btn">Войти</a>
         </li>
@@ -42,7 +42,7 @@
     </div>
     <div class="main-header-bottom">
       <nav class="main-navigation">
-        <ul class="site-navigation">
+        <ul class="site-navigation default-list">
           <li>
             <a href="#">Главная</a>
           </li>
@@ -69,55 +69,57 @@
     </div>
   </header>
 
-  <main class="container">
+  <main>
     <section class="goods-and-services">
       <h2 class="visually-hidden">Товары и услуги</h2>
-      <div class="goods-and-services-item">
-        <h3 class="goods-and-services-item-title">Материалы</h3>
-        <a href="#" class="goods-and-services-btn">На любой вкус</a>
-        <span class="item-latest">New</span>
+      <div class="goods">
+        <div class="goods-and-services-item">
+          <h3 class="goods-and-services-item-title">Материалы</h3>
+          <a href="#" class="goods-and-services-btn">На любой вкус</a>
+          <span class="item-latest">New</span>
+        </div>
+        <div class="goods-and-services-item">
+          <h3 class="goods-and-services-item-title">Инструмент</h3>
+          <a href="#" class="goods-and-services-btn">На все случаи</a>
+        </div>
+        <div class="goods-and-services-item">
+          <h3 class="goods-and-services-item-title">Техника</h3>
+          <a href="#" class="goods-and-services-btn">Для стройки</a>
+        </div>
       </div>
-      <div class="goods-and-services-item">
-        <h3 class="goods-and-services-item-title">Инструмент</h3>
-        <a href="#" class="goods-and-services-btn">На все случаи</a>
+      <div class="slider">
+        <div class="slider-controls">
+          <label for="product-1">Первый</label>
+          <label for="product-2">Второй</label>
+        </div>
+        <ul class="slider-list default-list">
+          <li class="slider-item slide" id="slide1">
+            <h3 class="slide-title">Дрели</h3>
+            <b>Соседям на радость!</b>
+            <a class="button slide-button" href="#">Открыть каталог</a>
+          </li>
+          <li class="slider-item slide" id="slide2">
+            <h3 class="slide-title">Перфораторы</h3>
+            <b>Настоящие мужские игрушки</b>
+            <a class="button slide-button" href="#">Открыть каталог</a>
+          </li>
+        </ul>
       </div>
-      <div class="goods-and-services-item">
-        <h3 class="goods-and-services-item-title">Техника</h3>
-        <a href="#" class="goods-and-services-btn">Для стройки</a>
-      </div>
-      <div class="goods-and-services-item">
-        <section class="slider">
-          <div class="slider-controls">
-            <label for="product-1">Первый</label>
-            <label for="product-2">Второй</label>
-          </div>
-          <ul class="slider-list">
-            <li class="slider-item slide" id="slide1">
-              <h3 class="slide-title">Дрели</h3>
-              <b>Соседям на радость!</b>
-              <a class="button slide-button" href="#">Открыть каталог</a>
-            </li>
-            <li class="slider-item slide" id="slide2">
-              <h3 class="slide-title">Перфораторы</h3>
-              <b>Настоящие мужские игрушки</b>
-              <a class="button slide-button" href="#">Открыть каталог</a>
-            </li>
-          </ul>
-        </section>
-      </div>
-      <div class="goods-and-services-item">
-        <h3 class="goods-and-services-item-title">Скидки 50%</h3>
-        <a href="#" class="goods-and-services-btn">На 350 товаров</a>
-      </div>
-      <div class="goods-and-services-item">
-        <h3 class="goods-and-services-item-title">Доставка</h3>
-        <a href="#" class="goods-and-services-btn">Бесплатно</a>
+      <div class="services">
+        <div class="goods-and-services-item">
+          <h3 class="goods-and-services-item-title">Скидки 50%</h3>
+          <a href="#" class="goods-and-services-btn">На 350 товаров</a>
+        </div>
+        <div class="goods-and-services-item">
+          <h3 class="goods-and-services-item-title">Доставка</h3>
+          <a href="#" class="goods-and-services-btn">Бесплатно</a>
+        </div>
       </div>
     </section>
     <section class="popular-goods">
       <h2 class="popular-goods-title">Популярные товары</h2>
       <a href="#" class="popular-goods-all">Все популярные товары</a>
-      <ul class="goods-list">
+      <ul class="goods-list default-list">
         <li class="goods-item">
           <div class="goods-item-label">
             <img src="img/power-drill-1.jpg" width="184" height="163" alt="Перфоратор BOSCH BFG 9000">
@@ -179,7 +181,7 @@
     <section class="popular-brand-name">
       <h2 class="popular-brand-name-title">Популярные производители</h2>
       <a href="#" class="popular-brand-name-all">Все производители</a>
-      <ul class="brand-name-list">
+      <ul class="brand-name-list default-list">
         <li class="brand-name-item">
           <a href="#">
             <img src="img/brand-item-1.png" width="126" height="37" alt="Bosch">
@@ -225,7 +227,7 @@
     <section class="service">
       <h2 class="service-title">Сервисы</h2>
       <p class="service-slogan">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-      <ul class="service-list">
+      <ul class="service-list default-list">
         <li class="service-item">Доставка</li>
         <li class="service-item">Гарантия</li>
         <li class="service-item">Кредит</li>
@@ -252,7 +254,7 @@
         <h2 class="about-us-title">Компания «Техномарт»</h2>
         <p class="about-us-description">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
         <p class="about-us-description">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями: </p>
-        <ul class="transport-companies-list">
+        <ul class="transport-companies-list default-list">
           <li class="transport-companies-item">Деловые линии</li>
           <li class="transport-companies-item">Автотрейдинг</li>
           <li class="transport-companies-item">ЖелДорЭкспедиция</li>
@@ -272,11 +274,10 @@
     <div class="main-footer-top">
       <div class="footer-left-side">
         <a class="footer-logo" href="#" title="Логотип Техномарт">Техномарт</a>
-        <p>г. Санкт&ndash;Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55
-        </p>
+        <p class="footer-contacts">г. Санкт&ndash;Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
       </div>
       <div class="footer-right-side">
-        <ul class="footer-nav-list footer-nav">
+        <ul class="footer-nav-list footer-nav default-list">
           <li class="footer-nav-item">
             <a href="#">Компания</a>
           </li>
@@ -293,7 +294,7 @@
             <a href="#">Контакты</a>
           </li>
         </ul>
-        <ul class="footer-nav-list secondary-nav">
+        <ul class="footer-nav-list secondary-nav default-list">
           <li class="secondary-nav">
             <a href="#">Материалы</a>
           </li>
@@ -312,7 +313,7 @@
     <div class="main-footer-bottom">
       <p class="footer-copyright">&copy; 2010&ndash;2017 Компания «Техномарт» Все права защищены</p>
       <div class="footer-social">
-        <ul class="footer-social-list">
+        <ul class="footer-social-list default-list">
           <li class="footer-social-item">
             <a class="footer-social-vk" href="#">
               <span class="visually-hidden">Вконтакте</span>
