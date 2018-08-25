@@ -295,11 +295,11 @@
 
   <footer class="main-footer">
     <div class="main-footer-top">
-      <div class="footer-left-side">
-        <a class="footer-logo" href="#" title="Логотип Техномарт">Техномарт</a>
-        <p class="footer-contacts">г. Санкт&ndash;Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
+      <div class="main-footer-contacts">
+        <a class="main-footer-logo" href="#">Техномарт</a>
+        <p class="footer-contacts-address">г. Санкт&ndash;Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
       </div>
-      <div class="footer-right-side">
+      <div class="main-footer-navigation">
         <ul class="footer-nav-list footer-nav default-list">
           <li class="footer-nav-item">
             <a href="#">Компания</a>
@@ -318,16 +318,16 @@
           </li>
         </ul>
         <ul class="footer-nav-list secondary-nav default-list">
-          <li class="secondary-nav">
+          <li class="secondary-nav-item">
             <a href="#">Материалы</a>
           </li>
-          <li class="secondary-nav">
+          <li class="secondary-nav-item">
             <a href="#">Техника</a>
           </li>
-          <li class="secondary-nav">
+          <li class="secondary-nav-item">
             <a href="#">Инструмент</a>
           </li>
-          <li class="secondary-nav">
+          <li class="secondary-nav-item">
             <a href="#">Спецпредложения</a>
           </li>
         </ul>
@@ -365,7 +365,7 @@
     </div>
   </footer>
 
-  <section class="modal modal-write-us">
+  <section class="modal feedback">
     <h2 class="visually-hidden">Написать нам</h2>
     <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
       <div class="half-width">
@@ -376,11 +376,15 @@
         <label class="feedback-form-label" for="feedback-form-email">Ваш e-mail:</label>
         <input id="feedback-form-email" class="feedback-form-input" type="email" name="email" value="" placeholder="email@example.com">
       </div>
-      <label class="feedback-form-label" for="feedback-form-letter-text"></label>
+      <label class="feedback-form-label" for="feedback-form-letter-text">Текст письма:</label>
       <textarea id="feedback-form-letter-text" class="feedback-form-input" name="letter-text" placeholder="В свободной форме"></textarea>
-      <button class="btn" type="submit" name="send-button">Отправить</button>
+      <div class="three-quarters-width">
+        <button class="btn" type="submit" name="send-button">Отправить</button>
+      </div>
     </form>
-    <button class="modal-close-btn" type="button" name="modal-write-us-button">Закрыть</button>
+    <button class="modal-close-btn" type="button" name="modal-write-us-button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
   </section>
 
   <section class="modal modal-map">
