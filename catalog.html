@@ -73,13 +73,22 @@
     </div>
   </header>
 
-  <main>
+  <main class="catalog-page">
     <ul class="breadcrumbs default-list">
       <li>
-        <a href="index.html" title="Домашняя страница"></li>
-      <li><a href="catalog.html">Каталог</a></li>
-      <li><a href="#">Инструмент</a></li>
-      <li><a class="breadcrumbs-current">Перфораторы</a></li>
+        <a class="home-page" href="index.html" title="Домашняя страница">
+          <span class="visually-hidden">Главная "Техномарт"</span>
+        </a>
+      </li>
+      <li>
+        <a href="catalog.html">Каталог</a>
+      </li>
+      <li>
+        <a href="#">Инструмент</a>
+      </li>
+      <li>
+        <a class="breadcrumbs-current">Перфораторы</a>
+      </li>
     </ul>
     <h1 class="catalog-page-title">Перфораторы</h1>
     <section class="catalog-page-filters">
@@ -87,22 +96,24 @@
       <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
         <fieldset class="filter-form-price">
           <legend class="filter-form-title">Цена:</legend>
-          <div class="price-controls">
-            <label class="min-price">
-              от
-              <input type="text" name="min-price" value="0">
-            </label>
-            <label class="max-price">
-              до
-              <input type="text" name="max-price" value="3000">
-            </label>
-          </div>
-          <div class="range-controls">
-            <div class="scale">
-              <div class="bar"></div>
+          <div class="filter-range">
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
             </div>
-            <div class="range-toggle range-toggle-min"></div>
-            <div class="range-toggle range-toggle-max"></div>
+            <div class="price-controls">
+              <label class="min-price">
+                от
+                <input type="text" name="min-price" value="0">
+              </label>
+              <label class="max-price">
+                до
+                <input type="text" name="max-price" value="3000">
+              </label>
+            </div>
           </div>
         </fieldset>
         <fieldset class="filter-form-brands">
@@ -164,22 +175,22 @@
       <div class="sort-header">
         <h2 class="sort-title">Сортировка</h2>
         <ul class="sort-result-list default-list">
-          <li class="sort-result-list-item">
-            <a class="sort-result-list-link sort-result-list-link-active" href="#">По цене</a>
+          <li class="sort-result-item">
+            <a class="sort-result-link sort-result-link-active" href="#">По цене</a>
           </li>
-          <li class="sort-result-list-item">
-            <a class="sort-result-list-link" href="#">По типу</a>
+          <li class="sort-result-item">
+            <a class="sort-result-link" href="#">По типу</a>
           </li>
-          <li class="sort-result-list-item">
-            <a class="sort-result-list-link" href="#">По рейтингу</a>
+          <li class="sort-result-item">
+            <a class="sort-result-link" href="#">По функционалу</a>
           </li>
         </ul>
         <ul class="selector-list default-list">
-          <li class="selector-list-item">
-            <a class="selector-list-link selector-list-link-up" href="#">Сортировка по возрастанию</a>
+          <li class="selector-item">
+            <a class="selector-link selector-link-up" href="#">Сортировка по возрастанию</a>
           </li>
-          <li class="selector-list-item">
-            <a class="selector-list-link selector-list-link-down selector-list-link-active" href="#">Сортировка по убыванию</a>
+          <li class="selector-item">
+            <a class="selector-link selector-link-down selector-link-active" href="#">Сортировка по убыванию</a>
           </li>
         </ul>
       </div>
@@ -323,8 +334,8 @@
     </section>
     <section class="final-clause">
       <h2 class="final-clause-title">Пара слов о перфораторах</h2>
-      <p>Перфоратор &mdash; универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.</p>
-      <p>Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток
+      <p class="page-content">Перфоратор &mdash; универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.</p>
+      <p class="page-content">Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток
         и ударная дрель.</p>
     </section>
   </main>
