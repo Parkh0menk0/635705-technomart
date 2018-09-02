@@ -34,7 +34,7 @@
           <span class="main-header-contacts-tel">+7 (812) 555-05-55</span>
           <p class="main-header-contacts-address">г. Санкт&ndash;Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </div>
-        <ul class="main-header-login-form default-list">
+        <ul class="main-header-login-form">
           <li>
             <a href="#" class="btn sing-in-btn">Войти</a>
           </li>
@@ -44,7 +44,7 @@
         </ul>
       </div>
       <nav class="main-navigation">
-        <ul class="site-navigation default-list">
+        <ul class="site-navigation">
           <li>
             <a href="#">Главная</a>
           </li>
@@ -109,7 +109,7 @@
               <span class="visually-hidden">Следующий слайд</span>
             </label>
           </div>
-          <ul class="slider-list default-list">
+          <ul class="slider-list">
             <li class="slider-item slider-item-drills">
               <h3 class="slide-title">Дрели</h3>
               <b class="slide-slogan">Соседям на радость!</b>
@@ -140,7 +140,7 @@
           <h2 class="popular-header-title">Популярные товары</h2>
           <a href="#" class="btn popular-all">Все популярные товары</a>
         </div>
-        <ul class="goods-list default-list">
+        <ul class="goods-list">
           <li class="goods-item">
             <div class="goods-item-label">
               <img src="img/power-drill-1.jpg" width="184" height="163" alt="Перфоратор BOSCH BFG 9000">
@@ -204,7 +204,7 @@
           <h2 class="popular-header-title">Популярные производители</h2>
           <a href="#" class="btn popular-all">Все производители</a>
         </div>
-        <ul class="brand-name-list default-list">
+        <ul class="brand-name-list">
           <li class="brand-name-item">
             <a href="#">
               <img src="img/brand-item-1.png" width="126" height="37" alt="Bosch">
@@ -252,13 +252,15 @@
       <h2 class="service-title">Сервисы</h2>
       <p class="page-content service-slogan">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
       <div class="service-panel">
-        <input type="radio" id="delivery" name="service-toggle" checked>
-        <input type="radio" id="guarantee" name="service-toggle">
-        <input type="radio" id="credit" name="service-toggle">
-        <div class="services-list">
-          <label class="service-item service-item-delivery" for="delivery">Доставка</label>
-          <label class="service-item service-item-guarantee" for="guarantee">Гарантия</label>
-          <label class="service-item service-item-credit" for="credit">Кредит</label>
+        <div class="service-panel-list">
+          <input class="visually-hidden" type="radio" id="delivery" name="service-toggle" checked>
+          <input class="visually-hidden" type="radio" id="guarantee" name="service-toggle">
+          <input class="visually-hidden" type="radio" id="credit" name="service-toggle">
+          <div class="services-list">
+            <label class="service-item service-item-delivery" for="delivery">Доставка</label>
+            <label class="service-item service-item-guarantee" for="guarantee">Гарантия</label>
+            <label class="service-item service-item-credit" for="credit">Кредит</label>
+          </div>
         </div>
         <div class="service-description">
           <div class="service-description-item service-delivery-description">
@@ -283,7 +285,7 @@
         <h2 class="about-us-title">Компания «Техномарт»</h2>
         <p class="page-content">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
         <p class="page-content">Мы можем доставить ваш товар в самые отдаленные точки России! Техномарт работает со многими транспортными компаниями: </p>
-        <ul class="transport-companies-list default-list">
+        <ul class="transport-companies-list">
           <li class="transport-companies-item">Деловые линии</li>
           <li class="transport-companies-item">Автотрейдинг</li>
           <li class="transport-companies-item">ЖелДорЭкспедиция</li>
@@ -304,7 +306,7 @@
       <div class="main-footer-top">
         <div class="footer-top-left">
           <a class="main-footer-logo">Техномарт</a>
-          <ul class="footer-nav-list footer-nav default-list">
+          <ul class="footer-nav-list footer-nav">
             <li class="footer-nav-item">
               <a href="#">Компания</a>
             </li>
@@ -324,7 +326,7 @@
         </div>
         <div class="footer-top-right">
           <p class="footer-contacts-address">г. Санкт&ndash;Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
-          <ul class="footer-nav-list secondary-nav default-list">
+          <ul class="footer-nav-list secondary-nav">
             <li class="secondary-nav-item">
               <a href="#">Материалы</a>
             </li>
@@ -343,7 +345,7 @@
       <div class="main-footer-bottom">
         <p class="footer-copyright">&copy; 2010&ndash;2017 Компания «Техномарт» Все права защищены</p>
         <div class="footer-social">
-          <ul class="footer-social-list default-list">
+          <ul class="footer-social-list">
             <li class="footer-social-item">
               <a class="footer-social-vk" href="#">
                 <span class="visually-hidden">Вконтакте</span>
