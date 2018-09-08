@@ -14,8 +14,8 @@
   <header class="main-header">
     <div class="main-header-top">
       <div class="container">
-        <a href="index.html" class="main-header-logo">Техномарт</a>
-        <form action="https://echo.htmlacademy.ru" method="get" class="site-search-form">
+        <a class="logo" href="index.html">Техномарт</a>
+        <form class="site-search-form" action="https://echo.htmlacademy.ru" method="get">
           <label class="visually-hidden" for="search-field">Поиск по сайту</label>
           <input id="search-field" type="search" name="search" placeholder="Поиск:">
           <button class="search-button" type="submit" name="button">
@@ -347,11 +347,11 @@
   </main>
 
   <footer class="main-footer">
-    <div class="container">
-      <div class="main-footer-top">
-        <div class="footer-top-left">
-          <a class="main-footer-logo">Техномарт</a>
-          <ul class="footer-nav-list footer-nav">
+    <div class="footer-wrapper">
+      <div class="container">
+        <div class="main-footer-top">
+          <a class="logo" href="index.html">Техномарт</a>
+          <ul class="footer-nav">
             <li class="footer-nav-item">
               <a href="#">Компания</a>
             </li>
@@ -359,7 +359,7 @@
               <a href="#">Новости</a>
             </li>
             <li class="footer-nav-item">
-              <a>Каталог</a>
+              <a href="#">Каталог</a>
             </li>
             <li class="footer-nav-item">
               <a href="#">Доставка</a>
@@ -369,9 +369,9 @@
             </li>
           </ul>
         </div>
-        <div class="footer-top-right">
+        <div class="main-footer-middle">
           <p class="footer-contacts-address">г. Санкт&ndash;Петербург, ул. Б. Конюшенная, д. 19/8 +7 (812) 555-05-55</p>
-          <ul class="footer-nav-list secondary-nav">
+          <ul class="secondary-nav">
             <li class="secondary-nav-item">
               <a href="#">Материалы</a>
             </li>
@@ -388,34 +388,28 @@
         </div>
       </div>
       <div class="main-footer-bottom">
-        <p class="footer-copyright">&copy; 2010&ndash;2017 Компания «Техномарт» Все права защищены</p>
-        <div class="footer-social">
-          <ul class="footer-social-list">
-            <li class="footer-social-item">
-              <a class="footer-social-vk" href="#">
-                <span class="visually-hidden">Вконтакте</span>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="footer-social-fb" href="#">
-                <span class="visually-hidden">Фейсбук</span>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a class="footer-social-inst" href="#">
-                <span class="visually-hidden">Инстаграм</span>
-              </a>
-            </li>
-          </ul>
+        <div class="container">
+          <p class="footer-copyright">&copy; 2010&ndash;2017 Компания «Техномарт» Все права защищены</p>
+          <div class="footer-social">
+            <a class="social social-vk" href="https://vk.com/htmlacademy">
+              <span class="visually-hidden">Вконтакте</span>
+            </a>
+            <a class="social social-fb" href="https://www.facebook.com/htmlacademy">
+              <span class="visually-hidden">Фейсбук</span>
+            </a>
+            <a class="social social-inst" href="https://www.instagram.com/htmlacademy/">
+              <span class="visually-hidden">Инстаграм</span>
+            </a>
+          </div>
+          <p class="footer-feedback">
+            Обратная связь:
+            <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+          </p>
+          <p class="footer-developed">
+            Разработано &mdash;
+            <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+          </p>
         </div>
-        <p class="footer-feedback">
-          Обратная связь:
-          <a href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-        </p>
-        <p class="footer-developed">
-          Разработано &mdash;
-          <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
-        </p>
       </div>
     </div>
   </footer>
