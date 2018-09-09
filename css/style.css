@@ -2138,14 +2138,14 @@ a.arrow {
 }
 
 .final-clause {
-  padding-bottom: 70px;
+  padding: 65px 0 68px;
 
   background-color: #f2f6f8;
 }
 
 .final-clause-title {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 26px;
 
   color: #000;
 
