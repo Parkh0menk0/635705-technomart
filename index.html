@@ -384,40 +384,42 @@
 
   <section class="modal feedback">
     <div class="modal-wrapper">
-    <h2 class="visually-hidden">Написать нам</h2>
-    <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
-      <div class="feedback-content">
-        <div class="name-and-email-entry-field">
-          <div class="name-entry-field">
-            <label for="name">Ваше имя:</label>
-            <input id="name" class="feedback-form-input" type="text" name="full-name" value="" placeholder="Имя Фамилия">
+      <h2 class="visually-hidden">Написать нам</h2>
+      <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="feedback-content">
+          <div class="name-and-email-entry-field">
+            <div class="name-entry-field">
+              <label for="name">Ваше имя:</label>
+              <input id="name" class="feedback-form-input" type="text" name="full-name" value="" placeholder="Имя Фамилия">
+            </div>
+            <div class="email-entry-field">
+              <label for="email">Ваш e-mail:</label>
+              <input id="email" class="feedback-form-input" type="email" name="email" value="" placeholder="email@example.com">
+            </div>
           </div>
-          <div class="email-entry-field">
-            <label for="email">Ваш e-mail:</label>
-            <input id="email" class="feedback-form-input" type="email" name="email" value="" placeholder="email@example.com">
+          <div class="multi-line-comment-entry-field">
+            <label for="multi-line-comment">Текст письма:</label>
+            <textarea class="write-us-form-message" id="multi-line-comment" placeholder="В свободной форме"></textarea>
           </div>
         </div>
-        <div class="multi-line-comment-entry-field">
-          <label for="multi-line-comment">Текст письма:</label>
-          <textarea class="write-us-form-message" id="multi-line-comment" placeholder="В свободной форме"></textarea>
+        <div class="form-submission-field">
+          <button class="btn" type="submit" name="send-button">Отправить</button>
         </div>
-      </div>
-      <div class="form-submission-field">
-        <button class="btn" type="submit" name="send-button">Отправить</button>
-      </div>
-    </form>
-    <button class="modal-close-btn" type="button" name="modal-close-btn">
-      <span class="visually-hidden">Закрыть</span>
-    </button>
+      </form>
+      <button class="modal-close" type="button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
     </div>
   </section>
 
   <section class="modal modal-map">
-    <div class="modal-map-wrapper">
-      <h2 class="visually-hidden">Карта</h2>
-      <img src="img/big-map.png" width="940" height="447" alt="Офис компании по адресу ул. Большая Конюшенная 19, Санкт-Петербург">
-      <button class="modal-close-btn" aria-label="Закрыть"></button>
-    </div>
+    <h2 class="visually-hidden">Как до нас добраться</h2>
+    <p>
+      <img src="img/big-map.png" width="940" height="447" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+    </p>
+    <button class="modal-close" type="button">
+      <span class="visually-hidden">Закрыть</span>
+    </button>
   </section>
 </body>
 
