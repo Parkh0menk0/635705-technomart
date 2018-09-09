@@ -111,7 +111,7 @@
     <div class="sort-and-filter">
       <section class="catalog-page-filters">
         <h3 class="filters-title">Фильтр:</h3>
-        <form class="filter-form" action="https://echo.htmlacademy.ru" method="get">
+        <form class="filter-form" method="get" action="https://echo.htmlacademy.ru">
           <fieldset class="filter-form-price">
             <legend class="filter-form-title">Цена:</legend>
             <div class="filter-range">
@@ -123,66 +123,59 @@
                 <div class="range-toggle range-toggle-max"></div>
               </div>
               <div class="price-controls">
-                <label class="min-price">
-                    от
-                    <input type="text" name="min-price" value="0">
+                <div class="half-width-wrapper">
+                  <label class="min-price">
+                    <span class="visually-hidden">от</span>
                   </label>
-                <label class="max-price">
-                    до
-                    <input type="text" name="max-price" value="3000">
+                  <input type="text" name="min-price" value="0">
+                </div>
+                <div class="dash">
+                  <span class="visually-hidden">Разделитель между максимальной и минимальной ценой</span>
+                </div>
+                <div class="half-width-wrapper">
+                  <label class="max-price">
+                    <span class="visually-hidden">до</span>
                   </label>
+                  <input type="text" name="max-price" value="30000">
+                </div>
               </div>
             </div>
           </fieldset>
           <fieldset class="filter-form-brands">
             <legend class="filter-form-title">Производители:</legend>
             <ul class="brands-list">
-              <li class="brands-item">
-                <label>
-                    <input class="brands-item-checkbox visually-hidden" type="checkbox" name="Bosch" value="" checked>
-                    Bosch
-                  </label>
+              <li class="filter-option">
+                <input id="bosch" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Bosch" value="" checked>
+                <label for="bosch">Bosch</label>
               </li>
-              <li class="brands-item">
-                <label>
-                    <input class="brands-item-checkbox visually-hidden" type="checkbox" name="Интерскол" value="">
-                    Интерскол
-                  </label>
+              <li class="filter-option">
+                <input id="interskol" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Интерскол" value="">
+                <label for="interskol">Интерскол</label>
               </li>
-              <li class="brands-item">
-                <label>
-                    <input class="brands-item-checkbox visually-hidden" type="checkbox" name="Makita" value="" checked>
-                    Makita
-                  </label>
+              <li class="filter-option">
+                <input id="makita" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Makita" value="" checked>
+                <label for="makita">Makita</label>
               </li>
-              <li class="brands-item">
-                <label>
-                    <input class="brands-item-checkbox visually-hidden" type="checkbox" name="DeWalt" value="">
-                    DeWalt
-                  </label>
+              <li class="filter-option">
+                <input id="dewalt" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="DeWalt" value="">
+                <label for="dewalt">DeWalt</label>
               </li>
-              <li class="brands-item">
-                <label>
-                    <input class="brands-item-checkbox visually-hidden" type="checkbox" name="Hitachi" value="">
-                    Hitachi
-                  </label>
+              <li class="filter-option">
+                <input id="hitachi" class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="Hitachi" value="">
+                <label for="hitachi">Hitachi</label>
               </li>
             </ul>
           </fieldset>
           <fieldset class="filter-form-power-supply">
             <legend class="filter-form-title">Питание:</legend>
             <ul class="power-supply-list">
-              <li class="power-supply-item">
-                <label>
-                    <input class="power-supply-item-radio visually-hidden" type="radio" name="power-supply" value="battery" checked>
-                    Аккумуляторные
-                  </label>
+              <li class="filter-option">
+                <input id="rechargeable" class="visually-hidden filter-input filter-input-radio" type="radio" name="power-supply" value="rechargeable-battery" checked>
+                <label for="rechargeable">Аккумуляторные</label>
               </li>
-              <li class="power-supply-item">
-                <label>
-                    <input class="power-supply-item-radio visually-hidden" type="radio" name="power-supply" value="electrical-network">
-                    Сетевые
-                  </label>
+              <li class="filter-option">
+                <input id="electrical" class="visually-hidden filter-input filter-input-radio" type="radio" name="power-supply" value="electrical-network">
+                <label for="electrical">Сетевые</label>
               </li>
             </ul>
           </fieldset>
@@ -191,25 +184,27 @@
       </section>
       <section class="catalog-page-sort">
         <div class="sort-header">
-          <h3 class="sort-title">Сортировка</h3>
-          <ul class="sort-result-list">
-            <li class="sort-result-item">
-              <a class="sort-result-link sort-result-link-active" href="#">По цене</a>
-            </li>
-            <li class="sort-result-item">
-              <a class="sort-result-link" href="#">По типу</a>
-            </li>
-            <li class="sort-result-item">
-              <a class="sort-result-link" href="#">По функционалу</a>
-            </li>
-          </ul>
-          <div class="arrow-selector">
-            <a class="arrow arrow-up" href="#">
-              <span class="visually-hidden">Сортировка по возрастанию</span>
-            </a>
-            <a class="arrow arrow-down" href="#">
-              <span class="visually-hidden">Сортировка по убыванию</span>
-            </a>
+          <h3 class="sort-title">Сортировка:</h3>
+          <div class="sort-arrow-wrapper">
+            <ul class="sort-result-list">
+              <li class="sort-result-item">
+                <a class="sort-result-link sort-result-link-active" href="#">По цене</a>
+              </li>
+              <li class="sort-result-item">
+                <a class="sort-result-link" href="#">По типу</a>
+              </li>
+              <li class="sort-result-item">
+                <a class="sort-result-link" href="#">По функционалу</a>
+              </li>
+            </ul>
+            <div class="arrow-selector">
+              <a class="arrow arrow-up active" href="#">
+                <span class="visually-hidden">Сортировка по возрастанию</span>
+              </a>
+              <a class="arrow arrow-down" href="#">
+                <span class="visually-hidden">Сортировка по убыванию</span>
+              </a>
+            </div>
           </div>
         </div>
         <div class="goods">
