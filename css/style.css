@@ -28,7 +28,7 @@ img {
   position: absolute;
 
   overflow: hidden;
-  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
 
   width: 1px;
   height: 1px;
@@ -676,7 +676,7 @@ input[type='search']:focus+.search-button svg {
   color: #fff;
 
   font-size: 24px;
-  font-style: bold;
+  font-weight: bold;
   line-height: 30px;
 }
 
@@ -808,7 +808,7 @@ input[type='search']:focus+.search-button svg {
 
   cursor: pointer;
 
-  border: 2px solid #fff;
+  border: 2px solid #fefefe;
   border-radius: 50%;
   background-color: #fff;
 }
@@ -1123,7 +1123,7 @@ input[type='search']:focus+.search-button svg {
   margin: 0;
   padding: 0;
 
-  list-style: 0;
+  list-style: none;
 }
 
 .brand-name-list .brand-name-item {
@@ -2085,7 +2085,7 @@ a.arrow {
 
 .pagination-item-current a {
   color: #fff;
-  border: 1px solid #ee3643;
+  border: 1px solid transparent;
   background-color: #ee3643;
 }
 
