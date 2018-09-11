@@ -1,7 +1,10 @@
 var feedbackLink = document.querySelector(".feedback-btn");
+var purchasesLink = document.querySelectorAll(".buy");
 
 var feedbackPopup = document.querySelector(".feedback");
 var feedbackClose = feedbackPopup.querySelector(".modal-close");
+var purchasesPopup = document.querySelector(".goods-in-the-cart");
+var purchasesClose = purchasesPopup.querySelector(".modal-close");
 
 var form = feedbackPopup.querySelector("form");
 var login = feedbackPopup.querySelector("[name=full-name]");
@@ -29,10 +32,22 @@ feedbackLink.addEventListener("click", function(evt) {
   }
 });
 
+for (var i=0; i<purchasesLink.length; i++) {
+  purchasesLink[i].addEventListener('click', function (evt) {
+    evt.preventDefault();
+    purchasesPopup.classList.add('modal-show');
+  });
+}
+
 feedbackClose.addEventListener("click", function(evt) {
   evt.preventDefault();
   feedbackPopup.classList.remove("modal-show");
   feedbackPopup.classList.remove("modal-error");
+});
+
+purchasesClose.addEventListener("click", function(evt) {
+  evt.preventDefault();
+  purchasesPopup.classList.remove("modal-show");
 });
 
 form.addEventListener("submit", function(evt) {
@@ -54,6 +69,9 @@ window.addEventListener("keydown", function(evt) {
     if (feedbackPopup.classList.contains("modal-show")) {
       feedbackPopup.classList.remove("modal-show");
       feedbackPopup.classList.remove("modal-error");
+    }
+    if (purchasesPopup.classList.contains("modal-show")) {
+      purchasesPopup.classList.remove("modal-show");
     }
   }
 });
