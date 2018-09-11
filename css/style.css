@@ -938,13 +938,13 @@ input[type='search']:focus + .search-button svg {
   background-color: #fff;
 }
 
-#punchers:checked ~ .slider-list .slider-item-punchers,
-#drills:checked ~ .slider-list .slider-item-drills {
+.punchers-radio:checked ~ .slider-list .slider-item-punchers,
+.drills-radio:checked ~ .slider-list .slider-item-drills {
   display: block;
 }
 
-#punchers:checked ~ .slider-controls .slider-controls-punchers,
-#drills:checked ~ .slider-controls .slider-controls-drills {
+.punchers-radio:checked ~ .slider-controls .slider-controls-punchers,
+.drills-radio:checked ~ .slider-controls .slider-controls-drills {
   background-color: #ee3643;
 }
 
@@ -1264,7 +1264,8 @@ input[type='search']:focus + .search-button svg {
   border-left: 19px solid #ee3643;
 }
 
-.catalog-item:hover,.brand-name-item:hover {
+.catalog-item:hover,
+.brand-name-item:hover {
   -webkit-box-shadow: 0 10px 25px 0 rgba(41, 52, 73, .5);
           box-shadow: 0 10px 25px 0 rgba(41, 52, 73, .5);
 }
@@ -1405,7 +1406,9 @@ input[type='search']:focus + .search-button svg {
   background-color: #293449;
 }
 
-#delivery:checked ~ .services-list .service-item-delivery, #guarantee:checked ~ .services-list .service-item-guarantee, #credit:checked ~ .services-list .service-item-credit {
+.delivery-radio:checked ~ .services-list .service-item-delivery,
+.guarantee-radio:checked ~ .services-list .service-item-guarantee,
+.credit-radio:checked ~ .services-list .service-item-credit {
   color: #32425c;
   background-color: #fff;
 }
@@ -1471,7 +1474,9 @@ input[type='search']:focus + .search-button svg {
   display: none;
 }
 
-#delivery:checked ~ .service-description .service-delivery-description, #guarantee:checked ~ .service-description .service-guarantee-description, #credit:checked ~ .service-description .service-credit-description {
+.delivery-radio:checked ~ .service-description .service-delivery-description,
+.guarantee-radio:checked ~ .service-description .service-guarantee-description,
+.credit-radio:checked ~ .service-description .service-credit-description {
   display: block;
 }
 
