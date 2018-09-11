@@ -32,8 +32,8 @@ feedbackLink.addEventListener("click", function(evt) {
   }
 });
 
-for (var i=0; i<purchasesLink.length; i++) {
-  purchasesLink[i].addEventListener('click', function (evt) {
+for (var i = 0; i < purchasesLink.length; i++) {
+  purchasesLink[i].addEventListener('click', function(evt) {
     evt.preventDefault();
     purchasesPopup.classList.add('modal-show');
   });
@@ -72,6 +72,30 @@ window.addEventListener("keydown", function(evt) {
     }
     if (purchasesPopup.classList.contains("modal-show")) {
       purchasesPopup.classList.remove("modal-show");
+    }
+  }
+});
+
+var mapLink = document.querySelector(".contacts-button-map");
+
+var mapPopup = document.querySelector(".modal-map");
+var mapClose = mapPopup.querySelector(".modal-close");
+
+mapLink.addEventListener("click", function(evt) {
+  evt.preventDefault();
+  mapPopup.classList.add("modal-show");
+});
+
+mapClose.addEventListener("click", function(evt) {
+  evt.preventDefault();
+  mapPopup.classList.remove("modal-show");
+});
+
+window.addEventListener("keydown", function(evt) {
+  evt.preventDefault();
+  if (evt.keyCode === 27) {
+    if (mapPopup.classList.contains("modal-show")) {
+      mapPopup.classList.remove("modal-show");
     }
   }
 });

@@ -2294,7 +2294,18 @@ a.arrow {
 }
 
 .modal-map p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 25;
   margin: 0;
+}
+
+.modal-map iframe {
+  position: relative;
+  z-index: 50;
+
+  border: none;
 }
 
 .modal-map .modal-close, .goods-in-the-cart .modal-close {
