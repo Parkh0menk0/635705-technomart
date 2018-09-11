@@ -164,11 +164,39 @@ input[type='search']:focus {
 }
 
 input[type='search']::placeholder {
-  color: #fff;
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 1;
 }
 
 input[type='search']:focus::placeholder {
-  color: #000;
+  color: #000000;
+}
+
+input[type='search']::-webkit-input-placeholder {
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+input[type='search']:-ms-input-placeholder {
+  font-family: Cuprum, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+input[type='search']:focus::-webkit-input-placeholder {
+  color: #000000;
+}
+
+input[type='search']:focus:-ms-input-placeholder {
+  color: #000000;
 }
 
 .search-button {
@@ -2244,6 +2272,28 @@ a.arrow {
 .feedback textarea {
   width: 460px;
   height: 114px;
+}
+
+.feedback-form-input::-webkit-input-placeholder,
+.write-us-form-message::-webkit-input-placeholder {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
+}
+.feedback-form-input:-ms-input-placeholder,
+.write-us-form-message:-ms-input-placeholder {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
+}
+.feedback-form-input::placeholder,
+.write-us-form-message::placeholder {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
 }
 
 .form-submission-field {
