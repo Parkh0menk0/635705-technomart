@@ -1197,7 +1197,6 @@ input[type='search']:focus+.search-button svg {
 }
 
 .catalog-item .title {
-  min-height: 40px;
   margin: 0;
   margin-top: 11px;
   margin-bottom: 10px;
@@ -1206,6 +1205,9 @@ input[type='search']:focus+.search-button svg {
 
   font-size: 18px;
   line-height: 20px;
+
+  max-width: 170px;
+  word-wrap: break-word;
 }
 
 .catalog-item .discount {
