@@ -556,10 +556,8 @@ input[type="search"]:focus + .search-button svg {
   background-color: #fff;
 
   -webkit-box-align: center;
-
-      -ms-flex-align: center;
-
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .user-authorization-info a {
@@ -1460,8 +1458,8 @@ input[type="search"]:focus + .search-button svg {
 .service-description-item {
   width: 700px;
   min-height: 284px;
-  padding-left: 80px;
   padding-bottom: 10px;
+  padding-left: 80px;
 }
 
 .service-description-item h3 {
@@ -1490,9 +1488,9 @@ input[type="search"]:focus + .search-button svg {
 }
 
 .services-description-link {
+  width: 195px;
   margin-top: 26px;
-    padding: 11px 10px 9px;
-    width: 195px;
+  padding: 11px 10px 9px;
 }
 
 .service-delivery-description {
