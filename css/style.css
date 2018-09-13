@@ -1454,13 +1454,14 @@ input[type="search"]:focus + .search-button svg {
 }
 
 .service-description {
-  height: 284px;
+  min-height: 284px;
 }
 
 .service-description-item {
   width: 700px;
   min-height: 284px;
   padding-left: 80px;
+  padding-bottom: 10px;
 }
 
 .service-description-item h3 {
@@ -1489,7 +1490,9 @@ input[type="search"]:focus + .search-button svg {
 }
 
 .services-description-link {
-  max-width: 195px;
+  margin-top: 26px;
+    padding: 11px 10px 9px;
+    width: 195px;
 }
 
 .service-delivery-description {
