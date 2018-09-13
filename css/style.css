@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   font-weight: normal;
   line-height: 18px;
@@ -33,8 +33,8 @@ img {
 }
 
 .visually-hidden:not(:focus):not(:active),
-input[type='checkbox'].visually-hidden,
-input[type='radio'].visually-hidden {
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
   position: absolute;
 
   overflow: hidden;
@@ -60,7 +60,7 @@ input[type='radio'].visually-hidden {
 }
 
 .btn {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
@@ -123,7 +123,7 @@ input[type='radio'].visually-hidden {
 }
 
 .logo {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-weight: normal;
 
   display: block;
@@ -165,7 +165,7 @@ input[type='radio'].visually-hidden {
   position: relative;
 }
 
-input[type='search'] {
+input[type="search"] {
   font-size: 17px;
   line-height: 18px;
 
@@ -177,16 +177,16 @@ input[type='search'] {
   background-color: transparent;
 }
 
-input[type='search']:hover {
+input[type="search"]:hover {
   background-color: #212a3a;
 }
 
-input[type='search']:focus {
+input[type="search"]:focus {
   background-color: #fff;
 }
 
-input[type='search']::-webkit-input-placeholder {
-  font-family: Cuprum, Arial, sans-serif;
+input[type="search"]::-webkit-input-placeholder {
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
 
@@ -194,8 +194,8 @@ input[type='search']::-webkit-input-placeholder {
   color: #fff;
 }
 
-input[type='search']:-ms-input-placeholder {
-  font-family: Cuprum, Arial, sans-serif;
+input[type="search"]:-ms-input-placeholder {
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
 
@@ -203,8 +203,8 @@ input[type='search']:-ms-input-placeholder {
   color: #fff;
 }
 
-input[type='search']::-ms-input-placeholder {
-  font-family: Cuprum, Arial, sans-serif;
+input[type="search"]::-ms-input-placeholder {
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
 
@@ -212,8 +212,8 @@ input[type='search']::-ms-input-placeholder {
   color: #fff;
 }
 
-input[type='search']::placeholder {
-  font-family: Cuprum, Arial, sans-serif;
+input[type="search"]::placeholder {
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
 
@@ -221,24 +221,24 @@ input[type='search']::placeholder {
   color: #fff;
 }
 
-input[type='search']:focus::-webkit-input-placeholder {
+input[type="search"]:focus::-webkit-input-placeholder {
   color: #000;
 }
 
-input[type='search']:focus:-ms-input-placeholder {
+input[type="search"]:focus:-ms-input-placeholder {
   color: #000;
 }
 
-input[type='search']:focus::-ms-input-placeholder {
+input[type="search"]:focus::-ms-input-placeholder {
   color: #000;
 }
 
-input[type='search']:focus::placeholder {
+input[type="search"]:focus::placeholder {
   color: #000;
 }
 
-input[type='search']::-webkit-input-placeholder {
-  font-family: Cuprum, Arial, sans-serif;
+input[type="search"]::-webkit-input-placeholder {
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
 
@@ -246,8 +246,8 @@ input[type='search']::-webkit-input-placeholder {
   color: #fff;
 }
 
-input[type='search']:-ms-input-placeholder {
-  font-family: Cuprum, Arial, sans-serif;
+input[type="search"]:-ms-input-placeholder {
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
 
@@ -255,11 +255,11 @@ input[type='search']:-ms-input-placeholder {
   color: #fff;
 }
 
-input[type='search']:focus::-webkit-input-placeholder {
+input[type="search"]:focus::-webkit-input-placeholder {
   color: #000;
 }
 
-input[type='search']:focus:-ms-input-placeholder {
+input[type="search"]:focus:-ms-input-placeholder {
   color: #000;
 }
 
@@ -282,11 +282,11 @@ input[type='search']:focus:-ms-input-placeholder {
   fill: #fff;
 }
 
-input[type='search']:hover + .search-button svg {
+input[type="search"]:hover + .search-button svg {
   opacity: 1;
 }
 
-input[type='search']:focus + .search-button svg {
+input[type="search"]:focus + .search-button svg {
   opacity: 1;
 
   fill: #ee3643;
@@ -318,10 +318,10 @@ input[type='search']:focus + .search-button svg {
   width: 14px;
   height: 16px;
 
-  content: '';
+  content: "";
 
   opacity: .3;
-  background-image: url('../img/icon-bookmark.svg');
+  background-image: url("../img/icon-bookmark.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -347,10 +347,10 @@ input[type='search']:focus + .search-button svg {
   width: 15px;
   height: 15px;
 
-  content: '';
+  content: "";
 
   opacity: .3;
-  background-image: url('../img/icon-cart.svg');
+  background-image: url("../img/icon-cart.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -462,9 +462,9 @@ input[type='search']:focus + .search-button svg {
   width: 19px;
   height: 19px;
 
-  content: '';
+  content: "";
 
-  background-image: url('../img/icon-phone.svg');
+  background-image: url("../img/icon-phone.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -494,18 +494,9 @@ input[type='search']:focus + .search-button svg {
   justify-content: flex-end;
 }
 
-.main-header-login-form {
-  width: 300px;
-}
-
+.main-header-login-form,
 .user-authorization {
   width: 300px;
-  ;
-}
-
-.main-header-login-form {
-  width: 300px;
-  ;
 }
 
 .main-header-login-form a {
@@ -631,7 +622,7 @@ input[type='search']:focus + .search-button svg {
   margin-right: 14px;
   margin-left: 15px;
 
-  content: '';
+  content: "";
 
   border-radius: 50%;
   background-color: #32425c;
@@ -773,7 +764,7 @@ input[type='search']:focus + .search-button svg {
   position: relative;
 
   background-color: #ffbf47;
-  background-image: url('../img/icon-1.svg');
+  background-image: url("../img/icon-1.svg");
   background-position: 213px 31px;
 }
 
@@ -790,18 +781,18 @@ input[type='search']:focus + .search-button svg {
 }
 
 .flag-new {
-  background: url('../img/new-flag.png') no-repeat 0 0;
+  background: url("../img/new-flag.png") no-repeat 0 0;
 }
 
 .goods .instrument {
   background-color: #3bbce3;
-  background-image: url('../img/icon-2.svg');
+  background-image: url("../img/icon-2.svg");
   background-position: 197px 33px;
 }
 
 .goods .equipment {
   background-color: #dc91d8;
-  background-image: url('../img/icon-3.svg');
+  background-image: url("../img/icon-3.svg");
   background-position: 191px 31px;
 }
 
@@ -869,13 +860,13 @@ input[type='search']:focus + .search-button svg {
   margin-bottom: 20px;
 
   background-color: #8ed78f;
-  background-image: url('../img/icon-4.svg');
+  background-image: url("../img/icon-4.svg");
   background-position: 196px 26px;
 }
 
 .goods-and-services .delivery {
   background-color: #ffc047;
-  background-image: url('../img/icon-5.svg');
+  background-image: url("../img/icon-5.svg");
   background-position: 191px 32px;
 }
 
@@ -967,13 +958,13 @@ input[type='search']:focus + .search-button svg {
 
 .slider .slider-item-drills {
   background-color: #684c3e;
-  background-image: url('../img/slider-item-1.jpg');
+  background-image: url("../img/slider-item-1.jpg");
   background-repeat: no-repeat;
 }
 
 .slider .slider-item-punchers {
   background-color: #917f6d;
-  background-image: url('../img/slider-item-2.jpg');
+  background-image: url("../img/slider-item-2.jpg");
   background-repeat: no-repeat;
 }
 
@@ -990,13 +981,13 @@ input[type='search']:focus + .search-button svg {
 .slider-switch-previous {
   left: 25px;
 
-  background-image: url('../img/icon-left.svg');
+  background-image: url("../img/icon-left.svg");
 }
 
 .slider-switch-next {
   right: 20px;
 
-  background-image: url('../img/icon-right.svg');
+  background-image: url("../img/icon-right.svg");
 }
 
 .popular {
@@ -1043,7 +1034,7 @@ input[type='search']:focus + .search-button svg {
 }
 
 .catalog-items {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
 
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1129,7 +1120,7 @@ input[type='search']:focus + .search-button svg {
 
 .actions .buy,
 .actions .bookmark {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
@@ -1168,7 +1159,7 @@ input[type='search']:focus + .search-button svg {
   width: 15px;
   height: 15px;
 
-  content: '';
+  content: "";
 
   opacity: .3;
   background: url(../img/icon-cart.svg) no-repeat 0 0;
@@ -1275,7 +1266,7 @@ input[type='search']:focus + .search-button svg {
   width: 0;
   height: 0;
 
-  content: '';
+  content: "";
 
   border-top: 20px solid transparent;
   border-bottom: 18px solid transparent;
@@ -1357,7 +1348,7 @@ input[type='search']:focus + .search-button svg {
 }
 
 .page-content {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 24px;
@@ -1394,13 +1385,13 @@ input[type='search']:focus + .search-button svg {
   width: 10px;
   height: 272px;
 
-  content: '';
+  content: "";
 
-  background: url('../img/option-shadow.png') no-repeat;
+  background: url("../img/option-shadow.png") no-repeat;
 }
 
 .service-item {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 21px;
   font-weight: bold;
   line-height: 30px;
@@ -1473,19 +1464,19 @@ input[type='search']:focus + .search-button svg {
 }
 
 .service-delivery-description {
-  background-image: url('../img/option-item-1.png');
+  background-image: url("../img/option-item-1.png");
   background-repeat: no-repeat;
   background-position: 231px 23px;
 }
 
 .service-guarantee-description {
-  background-image: url('../img/option-item-2.png');
+  background-image: url("../img/option-item-2.png");
   background-repeat: no-repeat;
   background-position: 231px 23px;
 }
 
 .service-credit-description {
-  background-image: url('../img/option-item-3.png');
+  background-image: url("../img/option-item-3.png");
   background-repeat: no-repeat;
   background-position: 231px 23px;
 }
@@ -1570,7 +1561,7 @@ input[type='search']:focus + .search-button svg {
   width: 25px;
   height: 2px;
 
-  content: '';
+  content: "";
 
   background-color: #fb565a;
 }
@@ -1772,15 +1763,15 @@ input[type='search']:focus + .search-button svg {
 }
 
 .social-vk {
-  background-image: url('../img/icon-vk.svg');
+  background-image: url("../img/icon-vk.svg");
 }
 
 .social-fb {
-  background-image: url('../img/icon-fb.svg');
+  background-image: url("../img/icon-fb.svg");
 }
 
 .social-inst {
-  background-image: url('../img/icon-insta.svg');
+  background-image: url("../img/icon-insta.svg");
 }
 
 .footer-feedback {
@@ -1809,7 +1800,7 @@ input[type='search']:focus + .search-button svg {
 }
 
 .catalog-page main {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
 
@@ -1852,9 +1843,9 @@ input[type='search']:focus + .search-button svg {
   width: 8px;
   height: 12px;
 
-  content: '';
+  content: "";
 
-  background: url('../img/icon-right-small.svg') no-repeat 0 0;
+  background: url("../img/icon-right-small.svg") no-repeat 0 0;
 }
 
 .breadcrumbs-current::after {
@@ -1879,11 +1870,11 @@ input[type='search']:focus + .search-button svg {
   width: 14px;
   height: 12px;
 
-  background: url('../img/icon-home.svg') no-repeat 0 0;
+  background: url("../img/icon-home.svg") no-repeat 0 0;
 }
 
 .catalog-page .catalog-page-title {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
   font-weight: normal;
   line-height: 30px;
@@ -2023,7 +2014,7 @@ input[type='search']:focus + .search-button svg {
   width: 2px;
   height: 2px;
 
-  content: '';
+  content: "";
 
   border: 2px solid #ababab;
   border-radius: 50%;
@@ -2109,7 +2100,7 @@ input[type='search']:focus + .search-button svg {
   width: 23px;
   height: 23px;
 
-  content: '';
+  content: "";
 
   opacity: .8;
   background-image: url(../img/checkbox-off.svg);
@@ -2129,7 +2120,7 @@ input[type='search']:focus + .search-button svg {
   width: 27px;
   height: 23px;
 
-  content: '';
+  content: "";
 
   opacity: .8;
   background-image: url(../img/checkbox-on.svg);
@@ -2145,10 +2136,10 @@ input[type='search']:focus + .search-button svg {
   width: 25px;
   height: 25px;
 
-  content: '';
+  content: "";
 
   opacity: .8;
-  background: url('../img/radio-off.svg') no-repeat;
+  background: url("../img/radio-off.svg") no-repeat;
 }
 
 .filter-input-radio:checked + label::after {
@@ -2160,10 +2151,10 @@ input[type='search']:focus + .search-button svg {
   width: 25px;
   height: 25px;
 
-  content: '';
+  content: "";
 
   opacity: .8;
-  background: url('../img/radio-on.svg') no-repeat;
+  background: url("../img/radio-on.svg") no-repeat;
 }
 
 .filter-input-checkbox + label:hover::before,
@@ -2175,7 +2166,7 @@ input[type='search']:focus + .search-button svg {
 .filter-input-checkbox:checked + label:hover::before,
 .filter-input-checkbox:checked + label:hover::after {
   opacity: 1;
-  background: url('../img/checkbox-on.svg') no-repeat;
+  background: url("../img/checkbox-on.svg") no-repeat;
 }
 
 .filter-input-checkbox:disabled + label::before,
@@ -2186,7 +2177,7 @@ input[type='search']:focus + .search-button svg {
 }
 
 .filter-form-button {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   font-size: 13px;
   font-weight: normal;
@@ -2307,9 +2298,8 @@ a.arrow {
 .arrow::before {
   display: inline-block;
 
-  content: '';
+  content: "";
   vertical-align: middle;
-  vertical-align: baseline;
 
   border: 10px solid rgba(0, 0, 0, .3);
   border-right-width: 5px;
@@ -2413,7 +2403,7 @@ a.arrow {
 }
 
 .final-clause-title {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
   font-weight: normal;
   line-height: 30px;
@@ -2576,12 +2566,12 @@ a.arrow {
 
   border: none;
   background-color: transparent;
-  background-image: url('../img/icon-close.svg');
+  background-image: url("../img/icon-close.svg");
   background-repeat: no-repeat;
 }
 
 .feedback-form {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 18px;
   line-height: 18px;
 
@@ -2628,20 +2618,15 @@ a.arrow {
 
 .feedback input,
 .feedback textarea {
-  font-family: 'PT Sans', Arial, sans-serif;
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
-  font-size: 13px;
-  line-height: 18px;
   line-height: 18px;
 
   width: 220px;
   padding: 8px 13px;
 
   border: 2px solid #dee3e4;
-  border: 2px solid #dee3e4;
   border-radius: 3px;
-  background-color: #fff;
   background-color: #fff;
 }
 
@@ -2652,7 +2637,7 @@ a.arrow {
 
 .feedback-form-input::-webkit-input-placeholder,
 .write-us-form-message::-webkit-input-placeholder {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
 
@@ -2661,7 +2646,7 @@ a.arrow {
 
 .feedback-form-input:-ms-input-placeholder,
 .write-us-form-message:-ms-input-placeholder {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
 
@@ -2670,7 +2655,7 @@ a.arrow {
 
 .feedback-form-input::-ms-input-placeholder,
 .write-us-form-message::-ms-input-placeholder {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
 
@@ -2679,7 +2664,7 @@ a.arrow {
 
 .feedback-form-input::placeholder,
 .write-us-form-message::placeholder {
-  font-family: 'PT Sans', Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
 
@@ -2747,7 +2732,7 @@ a.arrow {
 }
 
 .goods-in-the-cart {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
 
@@ -2771,11 +2756,11 @@ a.arrow {
   padding-bottom: 68px;
   padding-left: 180px;
 
-  background: url('../img/added.svg') no-repeat 15% 50%;
+  background: url("../img/added.svg") no-repeat 15% 50%;
 }
 
 .successfull-added {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 30px;
   font-weight: normal;
   line-height: 30px;
@@ -2801,7 +2786,7 @@ a.arrow {
 }
 
 .modal-btn a {
-  font-family: 'Cuprum', Arial, sans-serif;
+  font-family: "Cuprum", Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
